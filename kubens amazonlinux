@@ -1,0 +1,10 @@
+sudo yum install git -y
+git clone https://github.com/ahmetb/kubectx.git ~/.kubectx
+ export PATH=$PATH:~/.kubectx
+source ~/.kubectx/kubectx
+  source ~/.kubectx/kubens
+  sudo mv  ~/.kubectx/kubens /usr/local/bin
+  export PATH=$PATH:/usr/local/bin
+ source ~/.bashrc
+kubens
+ 
